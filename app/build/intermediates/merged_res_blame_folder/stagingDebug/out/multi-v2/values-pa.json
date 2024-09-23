@@ -4,7 +4,7 @@
             "outputFile": "com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-38:/values-pa/values-pa.xml",
             "map": [
                 {
-                    "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/877395734d4466a2e228c47f9c13a52f/transformed/material-1.6.1/res/values-pa/values-pa.xml",
+                    "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/560a466dc441638e36e996ac2fb8cbda/transformed/material-1.6.1/res/values-pa/values-pa.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/467e05103970e75bce6d8f8c2ec5e174/transformed/preference-1.2.0/res/values-pa/values-pa.xml",
+                    "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/3b9d12b9c184d16c8601c9fd87084dc4/transformed/preference-1.2.0/res/values-pa/values-pa.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/5d37e8f7252d239569e3fc3d0f3d9927/transformed/appcompat-1.4.2/res/values-pa/values-pa.xml",
+                    "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/d0d883f604ce956566df44e7b8e604cd/transformed/appcompat-1.4.2/res/values-pa/values-pa.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/4691802b216344fcf24d3a032973e484/transformed/core-1.7.0/res/values-pa/values-pa.xml",
+                    "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/4d18b123d52eeffc5b6f86cee8d2f15e/transformed/core-1.7.0/res/values-pa/values-pa.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

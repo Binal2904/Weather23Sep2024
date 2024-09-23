@@ -7,8 +7,6 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.demo.advanced.daggerhilt.databinding.FragmentSearchTodayWeatherBindingImpl;
-import com.demo.advanced.daggerhilt.databinding.FragmentSearchWeatherBindingImpl;
-import com.demo.advanced.daggerhilt.databinding.ListItemSearchedCityTemperatureBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -22,16 +20,10 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_FRAGMENTSEARCHTODAYWEATHER = 1;
 
-  private static final int LAYOUT_FRAGMENTSEARCHWEATHER = 2;
-
-  private static final int LAYOUT_LISTITEMSEARCHEDCITYTEMPERATURE = 3;
-
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(1);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.demo.advanced.daggerhilt.R.layout.fragment_search_today_weather, LAYOUT_FRAGMENTSEARCHTODAYWEATHER);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(com.demo.advanced.daggerhilt.R.layout.fragment_search_weather, LAYOUT_FRAGMENTSEARCHWEATHER);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(com.demo.advanced.daggerhilt.R.layout.list_item_searched_city_temperature, LAYOUT_LISTITEMSEARCHEDCITYTEMPERATURE);
   }
 
   @Override
@@ -48,18 +40,6 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FragmentSearchTodayWeatherBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_search_today_weather is invalid. Received: " + tag);
-        }
-        case  LAYOUT_FRAGMENTSEARCHWEATHER: {
-          if ("layout/fragment_search_weather_0".equals(tag)) {
-            return new FragmentSearchWeatherBindingImpl(component, view);
-          }
-          throw new IllegalArgumentException("The tag for fragment_search_weather is invalid. Received: " + tag);
-        }
-        case  LAYOUT_LISTITEMSEARCHEDCITYTEMPERATURE: {
-          if ("layout/list_item_searched_city_temperature_0".equals(tag)) {
-            return new ListItemSearchedCityTemperatureBindingImpl(component, view);
-          }
-          throw new IllegalArgumentException("The tag for list_item_searched_city_temperature is invalid. Received: " + tag);
         }
       }
     }
@@ -114,12 +94,10 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(1);
 
     static {
       sKeys.put("layout/fragment_search_today_weather_0", com.demo.advanced.daggerhilt.R.layout.fragment_search_today_weather);
-      sKeys.put("layout/fragment_search_weather_0", com.demo.advanced.daggerhilt.R.layout.fragment_search_weather);
-      sKeys.put("layout/list_item_searched_city_temperature_0", com.demo.advanced.daggerhilt.R.layout.list_item_searched_city_temperature);
     }
   }
 }

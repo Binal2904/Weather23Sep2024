@@ -32,8 +32,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_10dp"
-                    android:layout_marginEnd="@dimen/_10dp"
                     android:layout_marginTop="8dp"
+                    android:layout_marginEnd="@dimen/_10dp"
                     android:hint="@string/search_city_weather"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -43,30 +43,17 @@
 
         </com.google.android.material.appbar.AppBarLayout>
 
-        <TextView
-            android:id="@+id/text_label_search_for_city"
-            style="@style/LabelStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="64dp"
-            android:text="@string/search_for_a_city"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/app_bar_layout" />
 
         <ImageView
-            android:id="@+id/image_city"
+            android:id="@+id/ivCity"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginTop="64dp"
             android:alpha="0.5"
             android:scaleType="centerCrop"
-            android:src="@drawable/city_bg"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_label_search_for_city" />
+            app:layout_constraintTop_toBottomOf="@+id/app_bar_layout" />
 
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
@@ -85,7 +72,20 @@
                 android:visibility="gone"
                 tools:visibility="visible" android:tag="binding_1">
 
-             
+                <ImageView
+                    android:id="@+id/ivWeatherHumanReaction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="16dp"
+                    android:alpha="0.5"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:srcCompat="@drawable/sunny_day" />
+
+
+
                 <ImageView
                     android:id="@+id/ivWeatherImage"
                     android:layout_width="64dp"
@@ -121,9 +121,9 @@
                     style="@style/TitleStyle12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10dp"
                     android:layout_marginTop="4dp"
                     android:textColor="@color/black"
-                    android:layout_marginStart="@dimen/_10dp"
                     app:layout_constraintBottom_toBottomOf="@+id/tvLabelToday"
                     app:layout_constraintStart_toEndOf="@+id/tvLabelToday"
                     app:layout_constraintTop_toBottomOf="@+id/tvCityName"
@@ -136,9 +136,9 @@
                     android:layout_height="0dp"
                     android:textColor="@color/black"
                     android:textSize="70sp"
+                    app:layout_constraintBottom_toTopOf="@+id/layoutWeatherAdditional"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintBottom_toTopOf="@+id/layoutWeatherAdditional"
                     app:layout_constraintTop_toBottomOf="@+id/tvTodaysDate"
                     tools:text="28" />
 
@@ -154,38 +154,23 @@
                     app:layout_constraintStart_toEndOf="@+id/tvTemperature"
                     app:layout_constraintTop_toTopOf="@+id/tvTemperature" />
 
-                <ImageView
-                    android:id="@+id/ivWeatherHumanReaction"
-                    android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_marginTop="16dp"
-                    android:alpha="0.5"
-                    android:scaleType="centerCrop"
-                    app:layout_constraintBottom_toTopOf="@+id/layoutWeatherAdditional"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:srcCompat="@drawable/sunny_day" />
 
-                <include
-                    android:id="@+id/layoutWeatherAdditional"
-                    layout="@layout/layout_weather_additional_info"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/tvCityName"
-                    android:layout_marginTop="@dimen/_100sdp"
-                    app:layout_constraintBottom_toTopOf="@+id/layoutSunsetSunrise"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tvTemperature" />
+                    <include
+                        android:id="@+id/layoutWeatherAdditional"
+                        layout="@layout/layout_weather_additional_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_100sdp"
+                        app:layout_constraintBottom_toTopOf="@+id/layoutSunsetSunrise"
+                        app:layout_constraintStart_toStartOf="parent" />
 
-                <include
-                    android:id="@+id/layoutSunsetSunrise"
-                    layout="@layout/layout_sunrise_sunset"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/layoutWeatherAdditional" />
+                    <include
+                        android:id="@+id/layoutSunsetSunrise"
+                        layout="@layout/layout_sunrise_sunset"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>

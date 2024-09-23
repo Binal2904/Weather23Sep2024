@@ -4,9 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.demo.advanced.daggerhilt.data.response.ActivityData
 import com.demo.advanced.daggerhilt.data.response.weather.CurrentWeatherResponse
-import com.demo.advanced.daggerhilt.data.response.weather.WeatherListResponse
 import com.demo.advanced.daggerhilt.preference.SharedPreferenceManager
 import com.demo.advanced.daggerhilt.repository.MainRepository
 import com.demo.advanced.daggerhilt.util.ApiResource

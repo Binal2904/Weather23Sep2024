@@ -19,15 +19,14 @@ public class FragmentSearchTodayWeatherBindingImpl extends FragmentSearchTodayWe
         sViewsWithIds.put(R.id.app_bar_layout, 4);
         sViewsWithIds.put(R.id.toolbar, 5);
         sViewsWithIds.put(R.id.input_find_city_weather, 6);
-        sViewsWithIds.put(R.id.text_label_search_for_city, 7);
-        sViewsWithIds.put(R.id.image_city, 8);
+        sViewsWithIds.put(R.id.ivCity, 7);
+        sViewsWithIds.put(R.id.ivWeatherHumanReaction, 8);
         sViewsWithIds.put(R.id.ivWeatherImage, 9);
         sViewsWithIds.put(R.id.tvCityName, 10);
         sViewsWithIds.put(R.id.tvLabelToday, 11);
         sViewsWithIds.put(R.id.tvTodaysDate, 12);
         sViewsWithIds.put(R.id.tvTemperature, 13);
         sViewsWithIds.put(R.id.tvLabelDegree, 14);
-        sViewsWithIds.put(R.id.ivWeatherHumanReaction, 15);
     }
     // views
     @NonNull
@@ -38,19 +37,18 @@ public class FragmentSearchTodayWeatherBindingImpl extends FragmentSearchTodayWe
     // Inverse Binding Event Handlers
 
     public FragmentSearchTodayWeatherBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 16, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 15, sIncludes, sViewsWithIds));
     }
     private FragmentSearchTodayWeatherBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (com.google.android.material.appbar.AppBarLayout) bindings[4]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[1]
-            , (android.widget.ImageView) bindings[8]
             , (com.google.android.material.textfield.TextInputEditText) bindings[6]
-            , (android.widget.ImageView) bindings[15]
+            , (android.widget.ImageView) bindings[7]
+            , (android.widget.ImageView) bindings[8]
             , (android.widget.ImageView) bindings[9]
             , (bindings[3] != null) ? com.demo.advanced.daggerhilt.databinding.LayoutSunriseSunsetBinding.bind((android.view.View) bindings[3]) : null
             , (bindings[2] != null) ? com.demo.advanced.daggerhilt.databinding.LayoutWeatherAdditionalInfoBinding.bind((android.view.View) bindings[2]) : null
-            , (android.widget.TextView) bindings[7]
             , (androidx.appcompat.widget.Toolbar) bindings[5]
             , (android.widget.TextView) bindings[10]
             , (android.widget.TextView) bindings[14]

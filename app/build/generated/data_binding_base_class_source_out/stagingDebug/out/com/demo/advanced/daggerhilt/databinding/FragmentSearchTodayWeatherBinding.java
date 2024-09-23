@@ -26,10 +26,10 @@ public abstract class FragmentSearchTodayWeatherBinding extends ViewDataBinding 
   public final ConstraintLayout constraintLayoutShowingTemp;
 
   @NonNull
-  public final ImageView imageCity;
+  public final TextInputEditText inputFindCityWeather;
 
   @NonNull
-  public final TextInputEditText inputFindCityWeather;
+  public final ImageView ivCity;
 
   @NonNull
   public final ImageView ivWeatherHumanReaction;
@@ -42,9 +42,6 @@ public abstract class FragmentSearchTodayWeatherBinding extends ViewDataBinding 
 
   @NonNull
   public final LayoutWeatherAdditionalInfoBinding layoutWeatherAdditional;
-
-  @NonNull
-  public final TextView textLabelSearchForCity;
 
   @NonNull
   public final Toolbar toolbar;
@@ -66,21 +63,20 @@ public abstract class FragmentSearchTodayWeatherBinding extends ViewDataBinding 
 
   protected FragmentSearchTodayWeatherBinding(Object _bindingComponent, View _root,
       int _localFieldCount, AppBarLayout appBarLayout, ConstraintLayout constraintLayoutShowingTemp,
-      ImageView imageCity, TextInputEditText inputFindCityWeather, ImageView ivWeatherHumanReaction,
+      TextInputEditText inputFindCityWeather, ImageView ivCity, ImageView ivWeatherHumanReaction,
       ImageView ivWeatherImage, LayoutSunriseSunsetBinding layoutSunsetSunrise,
-      LayoutWeatherAdditionalInfoBinding layoutWeatherAdditional, TextView textLabelSearchForCity,
-      Toolbar toolbar, TextView tvCityName, TextView tvLabelDegree, TextView tvLabelToday,
-      TextView tvTemperature, TextView tvTodaysDate) {
+      LayoutWeatherAdditionalInfoBinding layoutWeatherAdditional, Toolbar toolbar,
+      TextView tvCityName, TextView tvLabelDegree, TextView tvLabelToday, TextView tvTemperature,
+      TextView tvTodaysDate) {
     super(_bindingComponent, _root, _localFieldCount);
     this.appBarLayout = appBarLayout;
     this.constraintLayoutShowingTemp = constraintLayoutShowingTemp;
-    this.imageCity = imageCity;
     this.inputFindCityWeather = inputFindCityWeather;
+    this.ivCity = ivCity;
     this.ivWeatherHumanReaction = ivWeatherHumanReaction;
     this.ivWeatherImage = ivWeatherImage;
     this.layoutSunsetSunrise = layoutSunsetSunrise;
     this.layoutWeatherAdditional = layoutWeatherAdditional;
-    this.textLabelSearchForCity = textLabelSearchForCity;
     this.toolbar = toolbar;
     this.tvCityName = tvCityName;
     this.tvLabelDegree = tvLabelDegree;

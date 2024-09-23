@@ -7,70 +7,70 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/tv_sunrise_label"
+        android:id="@+id/tvSunriseLabel"
         style="@style/LabelStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/colorPrimary"
         android:text="@string/label_sunrise"
-        app:layout_constraintEnd_toEndOf="@id/iv_sunrise"
-        app:layout_constraintStart_toStartOf="@id/iv_sunrise"
+        app:layout_constraintEnd_toEndOf="@id/ivSunrise"
+        app:layout_constraintStart_toStartOf="@id/ivSunrise"
         app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageView
-        android:id="@+id/iv_sunrise"
+        android:id="@+id/ivSunrise"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="10dp"
         android:src="@drawable/sunrise"
-        app:layout_constraintEnd_toStartOf="@id/iv_sunset"
+        app:layout_constraintEnd_toStartOf="@id/ivSunset"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_sunrise_label" />
+        app:layout_constraintTop_toBottomOf="@+id/tvSunriseLabel" />
 
     <TextView
-        android:id="@+id/tv_sunrise_time"
+        android:id="@+id/tvSunriseTime"
         style="@style/TitleStyle16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="@id/iv_sunrise"
-        app:layout_constraintStart_toStartOf="@id/iv_sunrise"
-        app:layout_constraintTop_toBottomOf="@+id/iv_sunrise"
+        app:layout_constraintEnd_toEndOf="@id/ivSunrise"
+        app:layout_constraintStart_toStartOf="@id/ivSunrise"
+        app:layout_constraintTop_toBottomOf="@+id/ivSunrise"
         tools:text="5:11 AM" />
 
     <TextView
-        android:id="@+id/tv_sunset_label"
+        android:id="@+id/tvSunsetLabel"
         style="@style/LabelStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/label_sunset"
         android:textColor="@color/colorPrimary"
-        app:layout_constraintEnd_toEndOf="@id/iv_sunset"
-        app:layout_constraintStart_toStartOf="@id/iv_sunset"
+        app:layout_constraintEnd_toEndOf="@id/ivSunset"
+        app:layout_constraintStart_toStartOf="@id/ivSunset"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/iv_sunset"
+        android:id="@+id/ivSunset"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginEnd="10dp"
         android:src="@drawable/sun_set"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/iv_sunrise"
-        app:layout_constraintTop_toBottomOf="@+id/tv_sunset_label" />
+        app:layout_constraintStart_toEndOf="@+id/ivSunrise"
+        app:layout_constraintTop_toBottomOf="@+id/tvSunsetLabel" />
 
     <TextView
-        android:id="@+id/tv_sunset_time"
+        android:id="@+id/tvSunsetTime"
         style="@style/TitleStyle16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="@id/iv_sunset"
-        app:layout_constraintStart_toStartOf="@id/iv_sunset"
-        app:layout_constraintTop_toBottomOf="@+id/iv_sunset"
+        app:layout_constraintEnd_toEndOf="@id/ivSunset"
+        app:layout_constraintStart_toStartOf="@id/ivSunset"
+        app:layout_constraintTop_toBottomOf="@+id/ivSunset"
         tools:text="6:47 PM" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

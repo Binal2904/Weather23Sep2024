@@ -78,37 +78,37 @@ public final class LayoutSunriseSunsetBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.iv_sunrise;
+      id = R.id.ivSunrise;
       ImageView ivSunrise = ViewBindings.findChildViewById(rootView, id);
       if (ivSunrise == null) {
         break missingId;
       }
 
-      id = R.id.iv_sunset;
+      id = R.id.ivSunset;
       ImageView ivSunset = ViewBindings.findChildViewById(rootView, id);
       if (ivSunset == null) {
         break missingId;
       }
 
-      id = R.id.tv_sunrise_label;
+      id = R.id.tvSunriseLabel;
       TextView tvSunriseLabel = ViewBindings.findChildViewById(rootView, id);
       if (tvSunriseLabel == null) {
         break missingId;
       }
 
-      id = R.id.tv_sunrise_time;
+      id = R.id.tvSunriseTime;
       TextView tvSunriseTime = ViewBindings.findChildViewById(rootView, id);
       if (tvSunriseTime == null) {
         break missingId;
       }
 
-      id = R.id.tv_sunset_label;
+      id = R.id.tvSunsetLabel;
       TextView tvSunsetLabel = ViewBindings.findChildViewById(rootView, id);
       if (tvSunsetLabel == null) {
         break missingId;
       }
 
-      id = R.id.tv_sunset_time;
+      id = R.id.tvSunsetTime;
       TextView tvSunsetTime = ViewBindings.findChildViewById(rootView, id);
       if (tvSunsetTime == null) {
         break missingId;

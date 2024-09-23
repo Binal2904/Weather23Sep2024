@@ -18,11 +18,7 @@ class Utility {
 
         }
         fun setGlideImage(image: ImageView, url: String) {
-
-            Glide.with(image).load(url)
-                .thumbnail(0.5f)
-                .into(image)
-
+            Glide.with(image).load(url).into(image)
         }
         fun loadImageUsingGlide(
             context: Context, imageView: ImageView?, url: String?
@@ -34,8 +30,6 @@ class Utility {
             Glide.with(context).load(url).diskCacheStrategy(DiskCacheStrategy.ALL)
                 .skipMemoryCache(true).placeholder(R.mipmap.ic_launcher).fitCenter()
                 .error(R.drawable.ic_launcher_background).into(imageView!!)
-
-
         }
 
         fun hideSoftKeyboard(context: Context, view: View) {

@@ -4,7 +4,7 @@
             "outputFile": "com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-38:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/5d37e8f7252d239569e3fc3d0f3d9927/transformed/appcompat-1.4.2/res/values-v24/values-v24.xml",
+                    "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/d0d883f604ce956566df44e7b8e604cd/transformed/appcompat-1.4.2/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/877395734d4466a2e228c47f9c13a52f/transformed/material-1.6.1/res/values-v24/values-v24.xml",
+                    "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/560a466dc441638e36e996ac2fb8cbda/transformed/material-1.6.1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",

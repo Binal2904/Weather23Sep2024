@@ -98,49 +98,49 @@ public final class LayoutWeatherAdditionalInfoBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tv_humidity_label;
+      id = R.id.tvHumidityLabel;
       TextView tvHumidityLabel = ViewBindings.findChildViewById(rootView, id);
       if (tvHumidityLabel == null) {
         break missingId;
       }
 
-      id = R.id.tv_humidity_value;
+      id = R.id.tvHumidityValue;
       TextView tvHumidityValue = ViewBindings.findChildViewById(rootView, id);
       if (tvHumidityValue == null) {
         break missingId;
       }
 
-      id = R.id.tv_pressure_icon;
+      id = R.id.tvPressureIcon;
       ImageView tvPressureIcon = ViewBindings.findChildViewById(rootView, id);
       if (tvPressureIcon == null) {
         break missingId;
       }
 
-      id = R.id.tv_pressure_label;
+      id = R.id.tvPressureLabel;
       TextView tvPressureLabel = ViewBindings.findChildViewById(rootView, id);
       if (tvPressureLabel == null) {
         break missingId;
       }
 
-      id = R.id.tv_pressure_value;
+      id = R.id.tvPressureValue;
       TextView tvPressureValue = ViewBindings.findChildViewById(rootView, id);
       if (tvPressureValue == null) {
         break missingId;
       }
 
-      id = R.id.tv_pressure_visibility;
+      id = R.id.tvPressureVisibility;
       ImageView tvPressureVisibility = ViewBindings.findChildViewById(rootView, id);
       if (tvPressureVisibility == null) {
         break missingId;
       }
 
-      id = R.id.tv_visibility_label;
+      id = R.id.tvVisibilityLabel;
       TextView tvVisibilityLabel = ViewBindings.findChildViewById(rootView, id);
       if (tvVisibilityLabel == null) {
         break missingId;
       }
 
-      id = R.id.tv_visibility_value;
+      id = R.id.tvVisibilityValue;
       TextView tvVisibilityValue = ViewBindings.findChildViewById(rootView, id);
       if (tvVisibilityValue == null) {
         break missingId;
