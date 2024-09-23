@@ -11,6 +11,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import androidx.viewpager2.widget.ViewPager2;
 import com.demo.advanced.daggerhilt.R;
+import com.google.android.material.tabs.TabLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,10 +21,15 @@ public final class ActivityHomeBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final TabLayout tabHome;
+
+  @NonNull
   public final ViewPager2 viewPager;
 
-  private ActivityHomeBinding(@NonNull LinearLayout rootView, @NonNull ViewPager2 viewPager) {
+  private ActivityHomeBinding(@NonNull LinearLayout rootView, @NonNull TabLayout tabHome,
+      @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
+    this.tabHome = tabHome;
     this.viewPager = viewPager;
   }
 
@@ -54,13 +60,19 @@ public final class ActivityHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.tabHome;
+      TabLayout tabHome = ViewBindings.findChildViewById(rootView, id);
+      if (tabHome == null) {
+        break missingId;
+      }
+
       id = R.id.viewPager;
       ViewPager2 viewPager = ViewBindings.findChildViewById(rootView, id);
       if (viewPager == null) {
         break missingId;
       }
 
-      return new ActivityHomeBinding((LinearLayout) rootView, viewPager);
+      return new ActivityHomeBinding((LinearLayout) rootView, tabHome, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -56,10 +56,6 @@
         "source": "/Users/kiranpadhiyar/.gradle/daemon/7.5.1/com.demo.advanced.daggerhilt.app-main-43:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.demo.advanced.daggerhilt.app-merged_res-41:/layout_fragment_forecast_weather.xml.flat",
-        "source": "com.demo.advanced.daggerhilt.app-main-43:/layout/fragment_forecast_weather.xml"
-    },
-    {
         "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.5.1/com.demo.advanced.daggerhilt.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "/Users/kiranpadhiyar/.gradle/daemon/7.5.1/com.demo.advanced.daggerhilt.app-main-43:/mipmap-xxxhdpi/ic_launcher.webp"
     },
@@ -202,6 +198,10 @@
     {
         "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.5.1/com.demo.advanced.daggerhilt.app-merged_res-41:/font_roboto_bold.ttf.flat",
         "source": "/Users/kiranpadhiyar/.gradle/daemon/7.5.1/com.demo.advanced.daggerhilt.app-main-43:/font/roboto_bold.ttf"
+    },
+    {
+        "merged": "com.demo.advanced.daggerhilt.app-merged_res-41:/layout_activity_home.xml.flat",
+        "source": "com.demo.advanced.daggerhilt.app-main-43:/layout/activity_home.xml"
     },
     {
         "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.5.1/com.demo.advanced.daggerhilt.app-merged_res-41:/mipmap-mdpi_ic_launcher.webp.flat",

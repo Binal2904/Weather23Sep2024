@@ -59,6 +59,7 @@ id ivWeatherImage
 id layoutSunsetSunrise
 id layoutWeatherAdditional
 id rvForecastWeather
+id tabHome
 id temp
 id toolbar
 id tvCityName

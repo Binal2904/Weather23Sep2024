@@ -22,6 +22,8 @@ import javax.inject.Inject
 @AndroidEntryPoint
 class HomeActivity : AppCompatActivity(), LocationListener {
 
+    val tabTitles = listOf("Current","5 days") // Your list of tab names
+
     @Inject
     lateinit var sharedPref: SharedPreferenceManager
 
@@ -37,8 +39,11 @@ class HomeActivity : AppCompatActivity(), LocationListener {
         val viewPager = binding!!.viewPager
 
         getLocation()
-        val adapter = ViewPagerAdapter(supportFragmentManager, lifecycle)
+        val adapter = ViewPagerAdapter(supportFragmentManager, lifecycle,tabTitles)
         viewPager.adapter = adapter
+        TabLayoutMediator(binding!!.tabHome, binding!!.viewPager) { tab, position ->
+            tab.text = tabTitles[position]
+        }.attach()
     }
 
     private fun getLocation() {

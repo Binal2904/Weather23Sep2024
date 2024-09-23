@@ -4,10 +4,6 @@
         "source": "/Users/kiranpadhiyar/.gradle/daemon/7.5.1/com.demo.advanced.daggerhilt.app-main-43:/layout/layout_weather_additional_info.xml"
     },
     {
-        "merged": "com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-40:/layout/fragment_forecast_weather.xml",
-        "source": "com.demo.advanced.daggerhilt.app-main-43:/layout/fragment_forecast_weather.xml"
-    },
-    {
         "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.5.1/com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-40:/layout/fragment_search_today_weather.xml",
         "source": "/Users/kiranpadhiyar/.gradle/daemon/7.5.1/com.demo.advanced.daggerhilt.app-main-43:/layout/fragment_search_today_weather.xml"
     },
@@ -30,5 +26,9 @@
     {
         "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.5.1/com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-40:/layout/weather_list_item.xml",
         "source": "/Users/kiranpadhiyar/.gradle/daemon/7.5.1/com.demo.advanced.daggerhilt.app-main-43:/layout/weather_list_item.xml"
+    },
+    {
+        "merged": "com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-40:/layout/activity_home.xml",
+        "source": "com.demo.advanced.daggerhilt.app-main-43:/layout/activity_home.xml"
     }
 ]

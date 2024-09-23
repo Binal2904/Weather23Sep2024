@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_20dp"
+    android:layout_marginVertical="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvHumidityLabel"
+        style="@style/LabelStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/label_humidity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_50dp"
+        android:layout_height="@dimen/_50dp"
+        android:layout_marginVertical="@dimen/_10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/round_bg"
+        android:padding="@dimen/_10dp"
+        android:src="@drawable/humidity"
+        app:layout_constraintEnd_toEndOf="@+id/tvHumidityLabel"
+        app:layout_constraintStart_toStartOf="@+id/tvHumidityLabel"
+        app:layout_constraintTop_toBottomOf="@+id/tvHumidityLabel" />
+
+    <TextView
+        android:id="@+id/tvHumidityValue"
+        style="@style/TitleStyle16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:text="70%" />
+
+
+    <TextView
+        android:id="@+id/tvPressureLabel"
+        style="@style/LabelStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_pressure"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/tvPressureIcon"
+        android:layout_width="@dimen/_50dp"
+        android:layout_height="@dimen/_50dp"
+        android:layout_marginVertical="@dimen/_10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/round_bg"
+        android:padding="@dimen/_10dp"
+        android:src="@drawable/wind"
+        app:layout_constraintEnd_toEndOf="@+id/tvPressureLabel"
+        app:layout_constraintStart_toStartOf="@+id/tvPressureLabel"
+        app:layout_constraintTop_toBottomOf="@+id/tvPressureLabel" />
+
+    <TextView
+        android:id="@+id/tvPressureValue"
+        style="@style/TitleStyle16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/tvPressureLabel"
+        app:layout_constraintStart_toStartOf="@+id/tvPressureLabel"
+        app:layout_constraintTop_toBottomOf="@+id/tvPressureIcon"
+        tools:text="1001 mBar" />
+
+    <TextView
+        android:id="@+id/tvVisibilityLabel"
+        style="@style/LabelStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_visibility"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tvPressureVisibility"
+        android:layout_width="@dimen/_50dp"
+        android:layout_height="@dimen/_50dp"
+        android:layout_marginVertical="@dimen/_10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/round_bg"
+        android:padding="@dimen/_10dp"
+        android:src="@drawable/visibility"
+        app:layout_constraintEnd_toEndOf="@+id/tvVisibilityLabel"
+        app:layout_constraintStart_toStartOf="@+id/tvVisibilityLabel"
+        app:layout_constraintTop_toBottomOf="@+id/tvVisibilityLabel" />
+
+    <TextView
+        android:id="@+id/tvVisibilityValue"
+        style="@style/TitleStyle16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvVisibilityLabel"
+        app:layout_constraintTop_toBottomOf="@+id/tvPressureVisibility"
+        tools:text="4 km" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

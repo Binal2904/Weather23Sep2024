@@ -7,7 +7,11 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.demo.advanced.daggerhilt.view.ui.fragment.ForecastWeatherFragment
 import com.demo.advanced.daggerhilt.view.ui.fragment.SearchWeatherFragment
 
-class ViewPagerAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle) :
+class ViewPagerAdapter(
+    fragmentManager: FragmentManager,
+    lifecycle: Lifecycle,
+    tabTitles: List<String>
+) :
     FragmentStateAdapter(fragmentManager, lifecycle) {
 
     override fun getItemCount(): Int {
