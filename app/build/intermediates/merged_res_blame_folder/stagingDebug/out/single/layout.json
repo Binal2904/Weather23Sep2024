@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/layout/fragment_weather_list.xml",
+        "source": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-main-42:/layout/fragment_weather_list.xml"
+    },
+    {
+        "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/layout/layout_toolbar.xml",
+        "source": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-main-42:/layout/layout_toolbar.xml"
+    },
+    {
+        "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/layout/fragment_current_weather.xml",
+        "source": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-main-42:/layout/fragment_current_weather.xml"
+    },
+    {
+        "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/layout/layout_weather_additional_info.xml",
+        "source": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-main-42:/layout/layout_weather_additional_info.xml"
+    },
+    {
+        "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/layout/item_hourly.xml",
+        "source": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-main-42:/layout/item_hourly.xml"
+    },
+    {
+        "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/layout/list_item_searched_city_temperature.xml",
+        "source": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-main-42:/layout/list_item_searched_city_temperature.xml"
+    },
+    {
+        "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/layout/activity_home.xml",
+        "source": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-main-42:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/layout/activity_main.xml",
+        "source": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/layout/layout_weather_basic_info.xml",
+        "source": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-main-42:/layout/layout_weather_basic_info.xml"
+    },
+    {
+        "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/layout/fragment_search_today_weather.xml",
+        "source": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-main-42:/layout/fragment_search_today_weather.xml"
+    },
+    {
+        "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/layout/layout_sunrise_sunset.xml",
+        "source": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-main-42:/layout/layout_sunrise_sunset.xml"
+    },
+    {
+        "merged": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/layout/fragment_search_weather.xml",
+        "source": "/Users/kiranpadhiyar/.gradle/daemon/7.3.3/com.demo.advanced.daggerhilt.app-main-42:/layout/fragment_search_weather.xml"
+    },
+    {
+        "merged": "com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/layout/fragment_search_today_weather.xml",
+        "source": "com.demo.advanced.daggerhilt.app-main-42:/layout/fragment_search_today_weather.xml"
+    }
+]
