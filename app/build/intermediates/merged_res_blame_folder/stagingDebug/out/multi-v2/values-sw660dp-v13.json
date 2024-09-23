@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-38:/values-sw660dp-v13/values-sw660dp-v13.xml",
+            "outputFile": "com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/values-sw660dp-v13/values-sw660dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/4b14924bdfec65e45a1631ec6a5436f1/transformed/ssp-android-1.0.6/res/values-sw660dp-v13/values-sw660dp-v13.xml",

@@ -26,6 +26,7 @@ import com.demo.advanced.daggerhilt.restfullapi.ApiService;
 import com.demo.advanced.daggerhilt.util.NetworkHelper;
 import com.demo.advanced.daggerhilt.view.ui.activity.HomeActivity;
 import com.demo.advanced.daggerhilt.view.ui.activity.HomeActivity_MembersInjector;
+import com.demo.advanced.daggerhilt.view.ui.fragment.ForecastWeatherFragment;
 import com.demo.advanced.daggerhilt.view.ui.fragment.SearchWeatherFragment;
 import com.demo.advanced.daggerhilt.view.viewmodel.MainViewModel;
 import com.demo.advanced.daggerhilt.view.viewmodel.MainViewModel_HiltModules_KeyModule_ProvideFactory;
@@ -344,6 +345,10 @@ public final class DaggerApp_HiltComponents_SingletonC {
       this.activityCImpl = activityCImpl;
 
 
+    }
+
+    @Override
+    public void injectForecastWeatherFragment(ForecastWeatherFragment arg0) {
     }
 
     @Override

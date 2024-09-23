@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-38:/values-da/values-da.xml",
+            "outputFile": "com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/values-da/values-da.xml",
             "map": [
                 {
                     "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/d0d883f604ce956566df44e7b8e604cd/transformed/appcompat-1.4.2/res/values-da/values-da.xml",

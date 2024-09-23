@@ -12,4 +12,11 @@ class MainRepository(private val apiHelper: ApiService) {
     suspend fun searchWeatherAccordingCity(
         city: String,
     ) = apiHelper.searchWeatherAccordingCity(city, BuildConfig.WEATHER_KEY)
+
+
+    suspend fun get5DaysForeCast(
+        lat: Double,
+        long: Double,
+        city: String,
+    ) = apiHelper.get5DaysForeCast(lat, long,city, BuildConfig.WEATHER_KEY)
 }

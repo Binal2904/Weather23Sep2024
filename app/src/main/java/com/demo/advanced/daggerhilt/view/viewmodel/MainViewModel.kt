@@ -5,6 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.demo.advanced.daggerhilt.data.response.weather.CurrentWeatherResponse
+import com.demo.advanced.daggerhilt.data.response.weather.LastDaysForeCastResponse
 import com.demo.advanced.daggerhilt.preference.SharedPreferenceManager
 import com.demo.advanced.daggerhilt.repository.MainRepository
 import com.demo.advanced.daggerhilt.util.ApiResource
@@ -23,6 +24,9 @@ class MainViewModel @Inject constructor(
 
     private val mCurrentMutableWeatherData = MutableLiveData<ApiResource<CurrentWeatherResponse>>()
     val mCurrentWeatherData: LiveData<ApiResource<CurrentWeatherResponse>> get() = mCurrentMutableWeatherData
+
+    private val mMutable5DayForecast = MutableLiveData<ApiResource<LastDaysForeCastResponse>>()
+    val m5DayForeCast: LiveData<ApiResource<LastDaysForeCastResponse>> get() = mMutable5DayForecast
 
     fun getCurrentWeatherInfoSearchByCity() {
         viewModelScope.launch {
@@ -67,6 +71,32 @@ class MainViewModel @Inject constructor(
                 }
             } else {
                 mCurrentMutableWeatherData.postValue(
+                    ApiResource.error(
+                        "No Active Internet Connection",
+                        null
+                    )
+                )
+            }
+        }
+    }
+
+    fun get5DaysForeCast(city: String) {
+        viewModelScope.launch {
+            mMutable5DayForecast.postValue(ApiResource.loading(null))
+            if (networkHelper.isNetworkConnected()) {
+                mainRepository.get5DaysForeCast(pref.getLatitude(), pref.getLongitude(),city).let {
+                    if (it.isSuccessful) {
+                        mMutable5DayForecast.postValue(ApiResource.success(it.body()))
+                    } else
+                        mMutable5DayForecast.postValue(
+                            ApiResource.error(
+                                it.errorBody().toString(),
+                                null
+                            )
+                        )
+                }
+            } else {
+                mMutable5DayForecast.postValue(
                     ApiResource.error(
                         "No Active Internet Connection",
                         null

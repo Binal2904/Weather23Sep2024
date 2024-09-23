@@ -14,6 +14,8 @@ MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/kiranpadhiyar/.gradle/
 MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/kiranpadhiyar/.gradle/caches/transforms-3/4c5eb55adfaa77d7b68fde1f596d188e/transformed/activity-ktx-1.2.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/a144cb6a393abfadfbd81901a1a01ed7/transformed/lifecycle-viewmodel-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5b8a6c846365ace2c991984bf4f43302/transformed/lifecycle-runtime-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.coil-kt:coil:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5ff4204dbecacebf1b70d4dee929600c/transformed/coil-0.9.5/AndroidManifest.xml:2:1-16:12
+MERGED from [io.coil-kt:coil-base:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/6b3968178e2b70219c101d2164800225/transformed/coil-base-0.9.5/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.dagger:hilt-android:2.42] /Users/kiranpadhiyar/.gradle/caches/transforms-3/a3cdd4b049d56406ec4a70fd8ce6cc1f/transformed/hilt-android-2.42/AndroidManifest.xml:16:1-19:12
 MERGED from [com.google.android.material:material:1.6.1] /Users/kiranpadhiyar/.gradle/caches/transforms-3/560a466dc441638e36e996ac2fb8cbda/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/kiranpadhiyar/.gradle/caches/transforms-3/8bd0fd968d0fbadfc605b0475648d61f/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -104,6 +106,8 @@ ADDED from /Users/kiranpadhiyar/Desktop/23Sep2024Android/Weather23Sep2024/app/sr
 		ADDED from /Users/kiranpadhiyar/Desktop/23Sep2024Android/Weather23Sep2024/app/src/main/AndroidManifest.xml:9:22-78
 application
 ADDED from /Users/kiranpadhiyar/Desktop/23Sep2024Android/Weather23Sep2024/app/src/main/AndroidManifest.xml:11:5-31:19
+MERGED from [io.coil-kt:coil:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5ff4204dbecacebf1b70d4dee929600c/transformed/coil-0.9.5/AndroidManifest.xml:9:5-14:19
+MERGED from [io.coil-kt:coil:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5ff4204dbecacebf1b70d4dee929600c/transformed/coil-0.9.5/AndroidManifest.xml:9:5-14:19
 MERGED from [com.google.android.material:material:1.6.1] /Users/kiranpadhiyar/.gradle/caches/transforms-3/560a466dc441638e36e996ac2fb8cbda/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] /Users/kiranpadhiyar/.gradle/caches/transforms-3/560a466dc441638e36e996ac2fb8cbda/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/kiranpadhiyar/.gradle/caches/transforms-3/8bd0fd968d0fbadfc605b0475648d61f/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -188,6 +192,10 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0] /Users/kiranpadhi
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/a144cb6a393abfadfbd81901a1a01ed7/transformed/lifecycle-viewmodel-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5b8a6c846365ace2c991984bf4f43302/transformed/lifecycle-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5b8a6c846365ace2c991984bf4f43302/transformed/lifecycle-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.coil-kt:coil:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5ff4204dbecacebf1b70d4dee929600c/transformed/coil-0.9.5/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5ff4204dbecacebf1b70d4dee929600c/transformed/coil-0.9.5/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/6b3968178e2b70219c101d2164800225/transformed/coil-base-0.9.5/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/6b3968178e2b70219c101d2164800225/transformed/coil-base-0.9.5/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.dagger:hilt-android:2.42] /Users/kiranpadhiyar/.gradle/caches/transforms-3/a3cdd4b049d56406ec4a70fd8ce6cc1f/transformed/hilt-android-2.42/AndroidManifest.xml:18:3-42
 MERGED from [com.google.dagger:hilt-android:2.42] /Users/kiranpadhiyar/.gradle/caches/transforms-3/a3cdd4b049d56406ec4a70fd8ce6cc1f/transformed/hilt-android-2.42/AndroidManifest.xml:18:3-42
 MERGED from [com.google.android.material:material:1.6.1] /Users/kiranpadhiyar/.gradle/caches/transforms-3/560a466dc441638e36e996ac2fb8cbda/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
@@ -304,6 +312,14 @@ INJECTED from /Users/kiranpadhiyar/Desktop/23Sep2024Android/Weather23Sep2024/app
 		INJECTED from /Users/kiranpadhiyar/Desktop/23Sep2024Android/Weather23Sep2024/app/src/main/AndroidManifest.xml
 		ADDED from /Users/kiranpadhiyar/Desktop/23Sep2024Android/Weather23Sep2024/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/kiranpadhiyar/Desktop/23Sep2024Android/Weather23Sep2024/app/src/main/AndroidManifest.xml
+provider#coil.util.CoilContentProvider
+ADDED from [io.coil-kt:coil:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5ff4204dbecacebf1b70d4dee929600c/transformed/coil-0.9.5/AndroidManifest.xml:10:9-13:40
+	android:authorities
+		ADDED from [io.coil-kt:coil:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5ff4204dbecacebf1b70d4dee929600c/transformed/coil-0.9.5/AndroidManifest.xml:12:13-56
+	android:exported
+		ADDED from [io.coil-kt:coil:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5ff4204dbecacebf1b70d4dee929600c/transformed/coil-0.9.5/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [io.coil-kt:coil:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5ff4204dbecacebf1b70d4dee929600c/transformed/coil-0.9.5/AndroidManifest.xml:11:13-57
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/c48e7c8ae1e2df908d92d9ad412d1f55/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
 	android:required

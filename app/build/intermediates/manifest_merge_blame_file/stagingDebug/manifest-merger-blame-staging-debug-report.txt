@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="21"
 8-->/Users/kiranpadhiyar/Desktop/23Sep2024Android/Weather23Sep2024/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="32" />
+9        android:targetSdkVersion="33" />
 9-->/Users/kiranpadhiyar/Desktop/23Sep2024Android/Weather23Sep2024/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
@@ -65,40 +65,49 @@
 36            </intent-filter>
 37        </activity>
 38
-39        <uses-library
-39-->[androidx.window:window:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/c48e7c8ae1e2df908d92d9ad412d1f55/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
-40            android:name="androidx.window.extensions"
-40-->[androidx.window:window:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/c48e7c8ae1e2df908d92d9ad412d1f55/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
-41            android:required="false" />
-41-->[androidx.window:window:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/c48e7c8ae1e2df908d92d9ad412d1f55/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
-42        <uses-library
-42-->[androidx.window:window:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/c48e7c8ae1e2df908d92d9ad412d1f55/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
-43            android:name="androidx.window.sidecar"
-43-->[androidx.window:window:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/c48e7c8ae1e2df908d92d9ad412d1f55/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
-44            android:required="false" />
-44-->[androidx.window:window:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/c48e7c8ae1e2df908d92d9ad412d1f55/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
-45
-46        <provider
-46-->[androidx.emoji2:emoji2:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/ee199738c85711b48bea86f5a3fdfb5f/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-47            android:name="androidx.startup.InitializationProvider"
-47-->[androidx.emoji2:emoji2:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/ee199738c85711b48bea86f5a3fdfb5f/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-48            android:authorities="com.demo.advanced.daggerhilt.androidx-startup"
-48-->[androidx.emoji2:emoji2:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/ee199738c85711b48bea86f5a3fdfb5f/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
-49            android:exported="false" >
-49-->[androidx.emoji2:emoji2:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/ee199738c85711b48bea86f5a3fdfb5f/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
-50            <meta-data
-50-->[androidx.emoji2:emoji2:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/ee199738c85711b48bea86f5a3fdfb5f/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-51-->[androidx.emoji2:emoji2:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/ee199738c85711b48bea86f5a3fdfb5f/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-52                android:value="androidx.startup" />
-52-->[androidx.emoji2:emoji2:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/ee199738c85711b48bea86f5a3fdfb5f/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
-53            <meta-data
-53-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/60976f579edfab4c70bc4987fb74f6d1/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-54-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/60976f579edfab4c70bc4987fb74f6d1/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-55                android:value="androidx.startup" />
-55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/60976f579edfab4c70bc4987fb74f6d1/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-56        </provider>
-57    </application>
-58
-59</manifest>
+39        <provider
+39-->[io.coil-kt:coil:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5ff4204dbecacebf1b70d4dee929600c/transformed/coil-0.9.5/AndroidManifest.xml:10:9-13:40
+40            android:name="coil.util.CoilContentProvider"
+40-->[io.coil-kt:coil:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5ff4204dbecacebf1b70d4dee929600c/transformed/coil-0.9.5/AndroidManifest.xml:11:13-57
+41            android:authorities="com.demo.advanced.daggerhilt.coil"
+41-->[io.coil-kt:coil:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5ff4204dbecacebf1b70d4dee929600c/transformed/coil-0.9.5/AndroidManifest.xml:12:13-56
+42            android:exported="false" />
+42-->[io.coil-kt:coil:0.9.5] /Users/kiranpadhiyar/.gradle/caches/transforms-3/5ff4204dbecacebf1b70d4dee929600c/transformed/coil-0.9.5/AndroidManifest.xml:13:13-37
+43
+44        <uses-library
+44-->[androidx.window:window:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/c48e7c8ae1e2df908d92d9ad412d1f55/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+45            android:name="androidx.window.extensions"
+45-->[androidx.window:window:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/c48e7c8ae1e2df908d92d9ad412d1f55/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+46            android:required="false" />
+46-->[androidx.window:window:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/c48e7c8ae1e2df908d92d9ad412d1f55/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+47        <uses-library
+47-->[androidx.window:window:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/c48e7c8ae1e2df908d92d9ad412d1f55/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+48            android:name="androidx.window.sidecar"
+48-->[androidx.window:window:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/c48e7c8ae1e2df908d92d9ad412d1f55/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+49            android:required="false" />
+49-->[androidx.window:window:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/c48e7c8ae1e2df908d92d9ad412d1f55/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/ee199738c85711b48bea86f5a3fdfb5f/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/ee199738c85711b48bea86f5a3fdfb5f/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+53            android:authorities="com.demo.advanced.daggerhilt.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/ee199738c85711b48bea86f5a3fdfb5f/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/ee199738c85711b48bea86f5a3fdfb5f/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/ee199738c85711b48bea86f5a3fdfb5f/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/ee199738c85711b48bea86f5a3fdfb5f/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.0.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/ee199738c85711b48bea86f5a3fdfb5f/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/60976f579edfab4c70bc4987fb74f6d1/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/60976f579edfab4c70bc4987fb74f6d1/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kiranpadhiyar/.gradle/caches/transforms-3/60976f579edfab4c70bc4987fb74f6d1/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>

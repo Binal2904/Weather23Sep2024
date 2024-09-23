@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-38:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.demo.advanced.daggerhilt.app-mergeStagingDebugResources-39:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/Users/kiranpadhiyar/.gradle/caches/transforms-3/3b9d12b9c184d16c8601c9fd87084dc4/transformed/preference-1.2.0/res/values-en-rAU/values-en-rAU.xml",

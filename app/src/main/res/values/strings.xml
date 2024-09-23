@@ -16,5 +16,8 @@
     <string name="search_city_weather">Search city\n</string>
     <string name="search_for_a_city">Search for city</string>
     <string name="today">Today</string>
-
+    <string name="degrees">%s\u00B0</string>
+    <string name="celsius">%s C\u00B0</string>
+    <string name="humidity">Humidity: %s</string>
+    <string name="pressure">Pressure: %s</string>
 </resources>

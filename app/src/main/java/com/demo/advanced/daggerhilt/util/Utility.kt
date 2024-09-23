@@ -15,7 +15,6 @@ class Utility {
     companion object {
         fun isNotNullOrEmpty(string: String?): Boolean {
             return string != null && string.isNotEmpty()
-
         }
         fun setGlideImage(image: ImageView, url: String) {
             Glide.with(image).load(url).into(image)

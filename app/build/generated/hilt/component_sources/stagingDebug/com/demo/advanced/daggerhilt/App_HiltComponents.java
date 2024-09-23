@@ -4,6 +4,7 @@ import com.demo.advanced.daggerhilt.di.module.ApiModule;
 import com.demo.advanced.daggerhilt.di.module.RepositoryModule;
 import com.demo.advanced.daggerhilt.di.module.SharedPreferenceModule;
 import com.demo.advanced.daggerhilt.view.ui.activity.HomeActivity_GeneratedInjector;
+import com.demo.advanced.daggerhilt.view.ui.fragment.ForecastWeatherFragment_GeneratedInjector;
 import com.demo.advanced.daggerhilt.view.ui.fragment.SearchWeatherFragment_GeneratedInjector;
 import com.demo.advanced.daggerhilt.view.viewmodel.MainViewModel_HiltModules;
 import dagger.Binds;
@@ -214,7 +215,8 @@ public final class App_HiltComponents {
       modules = ViewWithFragmentCBuilderModule.class
   )
   @FragmentScoped
-  public abstract static class FragmentC implements SearchWeatherFragment_GeneratedInjector,
+  public abstract static class FragmentC implements ForecastWeatherFragment_GeneratedInjector,
+      SearchWeatherFragment_GeneratedInjector,
       FragmentComponent,
       DefaultViewModelFactories.FragmentEntryPoint,
       ViewComponentManager.ViewWithFragmentComponentBuilderEntryPoint,
